@@ -1,0 +1,19 @@
+<app-slider></app-slider>
+<div class="card-group" style="padding-left: 100px;">
+  <div *ngFor="let product of products">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <div><img class="logo" src="{{product.image}}" (click)="viewProduct(product.id)" width="250" height="250" alt=""></div>
+        <p class="card-text brand" style="margin-bottom:0px;">{{ product.brand }}</p>
+        <p class="card-text">{{ product.name }}</p>
+        <p class="card-text">{{ 'PRODUCT.IMDB' | translate }} : {{ product.imdbRating }}</p>
+        <p class="card-text">{{ 'PRODUCT.Language' | translate }} : {{ product.Language }}</p>
+        <button class="btn btn-secondary fas fa-info-circle" style=" margin: 10px;" (click)="viewProduct(product.id)"></button>
+        <button class="btn btn-secondary fas fa-clock-o" style=" margin: 10px;" (click)="addWatchlater(product.id)"></button>
+        <button class="btn btn-secondary fas fa-play-circle" style=" margin: 10px;" (click)="addWatched(product.id)"></button>
+        <button class="btn btn-secondary fas fa-heart" style=" margin: 10px;" (click)="addFav(product.id)"></button>
+      </div>
+    </div>
+  </div>
+</div>

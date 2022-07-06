@@ -1,0 +1,41 @@
+{
+  "HEADER":
+  {
+    "SUPPORT_EMAIL": "Support@Anytime.com",
+    "SERVICES": "Services Avaliable across multiple regions.",
+    "Wacher_Zone": "WATCHER ZONE",
+    "LOGIN":"Log In",
+    "LOG_OUT":"Log Out",
+    "SEARCH_PRODUCTS":"Search for series..."
+  },
+  "FOOTER":
+  {
+    "COPYRIGHT":"Copyright @2021",
+    "CREATED": "Created By: Shubham ",
+    "SAMPLE":"Movies displayed here are dummy and for educational purpose."
+  },
+  "PRODUCT":
+  {
+    "Product":"Product",
+    "IMDB":"IMDB Rating",
+    "DESCRIPTION":"Description",
+    "ADD_FAV":"Add to favorites",
+    "Name": "Name",
+    "Genre": "Genre",
+    "Title":"Title",
+    "Language":"Language",
+    "NO_DATA":"No data to display",
+    "CONTINUE":"BACK"
+  },
+  "USER":
+  {
+    "FULL_NAME":"Full name",
+    "EMAIL":"Email"
+    
+  },
+  "VALIDATION":
+  {
+    "NAME":"Please enter your name.",
+    "NAME_LENGTH":"Name must be longer than 5 characters."
+  }
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "name": "The Things",
+    "image":  "./assets/images/1.PNG",
+    "Language": "Hindi",
+    "genre": "Movie",
+    "imdbRating": 7.1,
+    "description": "Friends lost during hiking the Appalachian Trail are confronted by 'The Foundation', a community of cultists who have lived in the mountains for hundreds of years. The cultists attack them in a terrifying game of hide and seek and twists and turns.",
+    "title":"The things"
+
+  },
+  {
+    "id": "2",
+    "name": "Jurassic Park",
+    "image":  "./assets/images/2.PNG",
+    "Language": "English",
+    "genre": "Movie",
+    "imdbRating": 7.1,
+    "description": "'The Foundation', a community of cultists who have lived in the mountains for hundreds of years. The cultists attack them in a terrifying game of hide and seek and twists and turns.",
+    "title":"Jurassic Park"
+
+  },
+  {
+    "id": "3",
+    "name": "The Exorcist",
+    "image":  "./assets/images/3.PNG",
+    "Language": "French",
+    "genre": "Seris",
+    "imdbRating": 7.1,
+    "description": " The cultists attack them in a terrifying game of hide and seek and twists and turns.",
+    "title":"The Exorcist"
+
+  }
+  
+]

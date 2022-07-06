@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer > span {
+    margin-top: 5px;
+    //display: flex;
+    justify-content: center;
+    color: #ccb9b1;
+  }
+
+  #created
+  {
+    float: right;
+  }
+
+  #copyright
+  {
+    padding-left: 20%;
+  }
+footer {
+    min-height: 1%;
+    max-height: 1%;
+    min-width: 100%;
+    padding: 10px 10px;
+    background-color: #c08267;
+    margin-top: 10px;
+  }
